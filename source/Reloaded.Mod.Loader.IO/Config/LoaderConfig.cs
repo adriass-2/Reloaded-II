@@ -133,7 +133,7 @@ public class LoaderConfig : ObservableObject, IConfig<LoaderConfig>
     /// <summary>
     /// The amount of time given to the mod loader to setup all of its mods by the application launcher.
     /// </summary>
-    public int LoaderSetupTimeout { get; set; } = 30000;
+    public int LoaderSetupTimeout { get; set; } = 300000;
 
     /// <summary>
     /// Time between successive connection attempts to the remote mod loader.
