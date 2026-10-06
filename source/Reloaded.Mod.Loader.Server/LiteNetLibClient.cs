@@ -84,7 +84,7 @@ public class LiteNetLibClient : ClientBase, ILiteNetLibRefAction<Acknowledgement
             return;
         }
 
-        const int reconnectMaxTimeMs = 30000;
+        const int reconnectMaxTimeMs = 300000;
         const int reconnectSleepTimeMs = 500;
         OnTryReconnect?.Invoke(peer);
         var watch = Stopwatch.StartNew();

@@ -14,7 +14,7 @@
     <system:Int32 x:Key="ReloadedProcessModLoaderSetupSleepTime">16</system:Int32>  <!-- Time between successive connection attempts. -->
 
     <!-- Application Launcher -->
-    <system:Int32 x:Key="AppLauncherModLoaderSetupTimeout">30000</system:Int32> <!-- The amount of time given to the mod loader to setup all of its mods by the application launcher. -->
+    <system:Int32 x:Key="AppLauncherModLoaderSetupTimeout">300000</system:Int32> <!-- The amount of time given to the mod loader to setup all of its mods by the application launcher. -->
     <system:Int32 x:Key="AppLauncherModLoaderSetupSleepTime">32</system:Int32>  <!-- Time between successive connection attempts. -->
 
     <!-- Process Tracker: Non-Admin Mode -->
