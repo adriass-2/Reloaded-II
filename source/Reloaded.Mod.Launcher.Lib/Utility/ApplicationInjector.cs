@@ -20,7 +20,7 @@ public unsafe class ApplicationInjector : IDisposable
         _syringe = NativeMethods.syringe_for_suspended_process((uint)_process.Id);
 
         var loaderConfig = IoC.Get<LoaderConfig>();
-        _modLoaderSetupTimeout   = loaderConfig.LoaderSetupTimeout;
+        _modLoaderSetupTimeout   = 300000;
         _modLoaderSetupSleepTime = loaderConfig.LoaderSetupSleeptime;
     }
     

@@ -6,7 +6,7 @@ namespace Reloaded.Mod.Launcher.Lib.Models.ViewModel.Application;
 public class ReloadedAppViewModel : ObservableObject, IDisposable
 {
     private const int RequestTimeout = 8000;
-    private static int ClientLoaderSetupTimeout { get; set; } = 1000;
+    private static int ClientLoaderSetupTimeout { get; set; } = 30000;
     private static int ClientLoaderSetupSleepTime { get; set; } = 32;
     private static int ClientModListRefreshInterval { get; set; } = 125;
 
